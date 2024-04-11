@@ -1,0 +1,37 @@
+.body input{
+  width: 300px;
+  height: 30px;
+  color: black;
+  background: lavenderblush;
+  border: 1px solid black
+}
+.body{
+  height: 50px;
+}
+body{
+  background-color: lavender;
+}
+.val{
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+.val button{
+  width: 100px;
+  height: 35px;
+  color: black;
+  background: lightpink;
+  border: 1px solid black
+}
+.valv{
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+.valv button{
+  width: 100px;
+  height: 35px;
+  color: black;
+  background: lightpink;
+  border: 1px solid black
+}
