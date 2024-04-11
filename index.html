@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 align="center">Scientific Calculator</h1>
+    <center>
+    <div class="body">
+      <input type="text" id="display">
+    </div>
+    <div class="val">
+      <button type="button" onclick="clearDisplay()">CE</button>
+      <button type="button" onclick="appendToDisplay('Math.PI')">π</button>
+      <button type="button" onclick="appendToDisplay('Math.sqrt()')">sqrt</button>
+      <button type="button" onclick="square()">sq</button>
+      <button type="button" onclick="appendToDisplay('%')">%</button>
+      <button type="button" onclick="appendToDisplay('<=')"><=</button>
+    </div>
+    <div class="val">
+      <button type="button" onclick="appendToDisplay('Math.log()')">log</button>
+      <button type="button" onclick="appendToDisplay('Math.sin()')">sin</button>
+      <button type="button" onclick="appendToDisplay('Math.exp()')">exp</button>
+      <button type="button" onclick="appendToDisplay('**')">^</button>
+      <button type="button" onclick="toggleSign()">+/-</button>
+      <button type="button" onclick="appendToDisplay('/')">/</button>
+    </div>
+    <div class="val">
+      <button type="button" onclick="naturalLog()">ln</button>
+      <button type="button" onclick="appendToDisplay('Math.cos()')">cos</button>
+      <button type="button" onclick="appendToDisplay('7')">7</button>
+      <button type="button" onclick="appendToDisplay('8')">8</button>
+      <button type="button" onclick="appendToDisplay('9')">9</button>
+      <button type="button" onclick="appendToDisplay('*')">*</button>
+    </div>
+    <div class="val">
+      <button type="button" onclick="factorial()">n!</button>
+      <button type="button" onclick="appendToDisplay('Math.tan()')">tan</button>
+      <button type="button" onclick="appendToDisplay('4')">4</button>
+      <button type="button" onclick="appendToDisplay('5')">5</button>
+      <button type="button" onclick="appendToDisplay('6')">6</button>
+      <button type="button" onclick="appendToDisplay('-')">-</button>
+    </div>
+    <div class="valv">
+      <button type="button" name="button" colspan="4" onclick="toDegrees()">degrees</button>
+      <button type="button" name="button" colspan="4" onclick="toRadians()">radians</button>
+      <button type="button" onclick="appendToDisplay('1')">1</button>
+      <button type="button" onclick="appendToDisplay('2')">2</button>
+      <button type="button" onclick="appendToDisplay('3')">3</button>
+      <button type="button" onclick="appendToDisplay('+')">+</button>
+    </div>
+    <div class="val">
+      <button type="button" colspan="3" onclick="appendToDisplay('0')">0</button>
+      <button type="button" onclick="appendToDisplay('.')">.</button>
+      <button type="button" onclick="calculate()">=</button>
+    </div>
+    </center>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
